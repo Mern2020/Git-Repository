@@ -1,0 +1,67 @@
+
+
+
+* { 
+    padding:0px;
+    margin: 0px
+}
+body {
+    background-color:lightgrey;   
+}
+.container {
+    position:relative;
+}
+.center
+{position:absolute;
+left:10%;
+top:33%;
+width:80%;
+text-align:center;
+font-size: 80px;
+color:white;
+font-family:'Courier New', Courier, monospace;
+outline: white solid 4px;
+border-right-width: 20px;
+border-left-width: 20px;
+
+}
+
+img {
+     z-index: -1;
+}
+
+  h1 {
+    font-size:500%;
+    font-family:'Courier New', Courier, monospace;
+  background-color: #222222;
+  color:white;
+  text-align: center;
+  width:100%;
+}
+
+table, th, td {
+    
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: center;
+    width:70%;
+  }
+  th {background-color:green;
+}
+
+
+
+h2{color:purple}
+
+form
+{
+    block-size: 22;
+    padding:5px;
+    overflow:hidden;
+    font: size 16;
+    background-color:black;
+    color:white;
+    text-align:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
